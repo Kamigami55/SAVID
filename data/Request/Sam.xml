@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requestList>
+	<request>
+		<application>Talker</application>
+		<event>new message</event>
+		<content>
+			<speaker>David</speaker>
+			<text>Hi! Sam! How are you?</text>
+		</content>
+	</request>
+	<request>
+		<application>Checkmate<application>
+		<event>move</event>
+		<content>
+			<color>white</color>
+			<move>
+				<start>D2</start>
+				<end>E4</end>
+			</move>
+		</content>
+	</request>
+</requestList>

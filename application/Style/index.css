@@ -1,0 +1,96 @@
+body {
+	background-color: #CCCCCC;
+} 
+
+#form {
+	position: fixed;
+	width: 350px;
+	height: 180px;
+	left: 0;
+	right: 0;
+	top: 20%;
+	margin: auto;
+	padding: 10px;
+	background-color: #F0F0F0;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 15px 15px 5px rgba(0,0,0,0.45);
+	box-shadow: 0px 15px 15px 5px rgba(0,0,0,0.45);
+}
+
+#loginErr {
+	color: #FF0000;
+}
+
+#loginTitle {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 36px;
+	color: #0099CC;
+	font-weight: bolder;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	border-radius: 10px;
+	border: #009966 solid;
+}
+
+#username {
+	width: 150px;
+	font-size: 16px;
+	position: absolute;
+	top: 75px;
+	right: 100px;
+}
+#password {
+	width: 150px;
+	font-size: 16px;
+	position: absolute;
+	right: 100px;
+	top: 110px;
+}
+
+#usernameTxt {
+	color: #555555;
+	font-size: 20px;
+	position: absolute;
+	top: 75px;
+}
+#passwordTxt {
+	color: #555555;
+	font-size: 20px;
+	position: absolute;
+	top: 110px;
+}
+#login {
+	width: 80px;
+	height: 65px;
+	position: absolute;
+	right: 10px;
+	top: 75px;
+	border: solid #555555 2px;
+	font-size: 24px;
+	color: 555555;
+	background-color: #00FF99;
+	border-radius: 10px;
+} #login:hover {
+	background-color: #00CC66;
+}
+#enterAsGuest {
+	width: 130px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 150px;
+	border: solid #555555 1.5px;
+	font-size: 14px;
+	color: 555555;
+	background-color: #00CCFF;
+	border-radius: 10px;
+} #enterAsGuest:hover {
+	background-color: #0099CC;
+}
+#loginErr {
+	position: absolute;
+	top: 150px;
+	font-size: 15px;
+	display: none;
+}

@@ -1,0 +1,26 @@
+///////////////////////////////
+// musicPlayer.js
+///////////////////////////////
+//
+// Functions of musicPlayer
+//	
+//////////////////////////
+
+
+
+
+/////////////////////
+// Functions
+/////////////////////
+
+
+
+function playMusic() {
+	
+	if ( $("#music").prop("paused") ) {
+		music.play();
+	} else {
+		music.pause();
+	}
+	
+}

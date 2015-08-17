@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<script type="text/javascript" src="/application/Account/Account.js"></script>
+<head>
+
+<meta charset="UTF-8">
+<title>SAVID Base</title>
+
+
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="application/Style/Style.css">
+<link rel="stylesheet" type="text/css" href="application/GUI/gui.css">
+<link rel="stylesheet" type="text/css" href="application/Talker/Talker.css">
+<link rel="stylesheet" type="text/css" href="application/Word Pad/Word Pad.css">
+<link rel="stylesheet" type="text/css" href="application/Music Player/Music Player.css">
+<!--<link rel="stylesheet" type="text/css" href="application/Checkmate/chessboard-0.3.0.min.css">
+<link rel="stylesheet" type="text/css" href="application/Checkmate/checkmate.css">
+-->
+
+</head>
+
+
+
+
+<body>
+
+<!-- GUI -->
+<!-- Information -->
+<div id="information">
+	<span id="savid">SAVID Base</span><br>
+	<span id="userID"></span>
+	<span id="logout" onClick="logout();">Logout</span>
+</div>
+<!-- Toolbar -->
+<div id="tools" class="toolbar">
+	<button id="openWordpad"></button>
+<!--    <button id="openCheckmate"></button>-->
+</div>
+
+
+<!-- Music Player -->
+<audio id="music" controls>
+	<source src="application/Music Player/music/Skillet - Awake and Alive.mp3">
+</audio>
+
+
+<!-- Talker -->
+<div id="talker">
+	<div id="ear">
+    	<div id="display"></div>
+    </div>
+	<div id="mouth">
+        <input id="message" type="text">
+        <button id="submitMessage">發送</button>
+	</div>
+</div>
+
+
+<!-- Word Pad -->
+<div id="wordpad" class="window">
+	<div class="headbar">
+   		<div id="wpTitle" class="title">Word Pad</div>
+      	<button id="closeWordpad" class="close"></button>
+    </div>
+	<div id="wpMainArea" class="mainArea">
+    	<div id="wpNoteControl">
+        	<div id="wpToolbar" class="toolbar">
+                <button id="addNote">新增記事</button>
+                <button id="deleteNote">刪除記事</button>
+                <button id="renameNote">命名記事</button>
+                <button id="save">已儲存</button>
+			</div>
+            <div id="fileSwitch" size="10"></div>
+        </div>
+        <div id="wpTextArea">
+	        <textarea id="content"></textarea>
+		</div>
+    </div>
+</div>
+
+
+<!-- Checkmate
+<div id="checkmate" class="window">
+	<div class="headbar">
+   		<div id="cmTitle" class="title">Checkmate</div>
+      	<button id="closeCheckmate" class="close"></button>
+    </div>
+	<div id="cmMainArea" class="mainArea">
+        <button id="white">I am White!</button>
+        <button id="black">I am Black!</button>
+        <div id="board"></div>
+        <div id="state">
+        <p>Status: <span id="status"></span></p>
+        <p>FEN: <span id="fen"></span></p>
+        <p>PGN: <span id="pgn"></span></p>
+        </div>
+    </div>
+</div>-->
+
+
+<!-- Framework -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/threejs/r67/three.min.js"></script>
+<script src="application/Framework/keyboard.js"></script>
+<!-- Account -->
+<script src="application/Account/cookie.js"></script>
+<script src="application/Account/Account.js"></script>
+<script>
+	enterPage();
+</script>
+<!-- Request -->
+<!--<script src="application/Request/Request.js"></script>-->
+<!-- World -->
+<script src="application/World/JSONLoader.js"></script>
+<script src="application/World/FirstPersonControls.js"></script>
+<script src="application/World/threex.domevents.js"></script>
+<script src="application/World/scene.js"></script>
+<script src="application/World/cameraControl.js"></script>
+<script src="application/World/world.js"></script>
+<!-- Word Pad-->
+<script src="application/Word Pad/Word Pad.js"></script>
+<!-- Music Player -->
+<script src="application/Music Player/Music Player.js"></script>
+<!-- Talker -->
+<script src="application/Talker/Talker.js"></script>
+<!-- Checkmate -->
+<!--<script src="application/Checkmate/chessboard-0.3.0.min.js"></script>
+<script src="application/Checkmate/chess.min.js"></script>
+<script src="application/Checkmate/Checkmate.js"></script>
+-->
+
+</body>
+
+
+</html>

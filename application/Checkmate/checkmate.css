@@ -1,0 +1,44 @@
+#checkmate {
+	width: 700px;
+	height: 650px;
+	display: none;	
+} 
+#cmTitle {
+	color: #996600;
+	font-style: italic;
+	font-size: 36px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#cmMainArea {
+	height: 550px;
+}
+
+#white {
+	position: absolute;
+	left: 0;
+	top: 200px;
+	width: 100px;
+	height: 30px;
+}
+#black {
+	position: absolute;
+	left: 0;
+	top: 250px;
+	width: 100px;
+	height: 30px;
+}
+#board {
+	width: 500px;
+	position:absolute;
+	right: 0; 
+	top: 50px;
+}
+#state {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 500px;
+	height: 100px;
+	background-color: #EEEEEE;
+	overflow: scroll;
+}

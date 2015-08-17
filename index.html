@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+
+
+<head>
+
+<meta charset="UTF-8">
+<title>SAVID Base - Log in</title>
+
+
+<link rel="stylesheet" type="text/css" href="application/Style/Style.css">
+<link rel="stylesheet" type="text/css" href="application/Style/index.css">
+
+</head>
+
+
+
+<body>
+
+<!-- Account - Login -->
+<div id="form">
+	<p id="loginTitle">SAVID Base</p><br>                                               
+	<span id="usernameTxt">Username:</span><input type="text" id="username"><br>
+	<span id="passwordTxt">Password:</span><input type="password" id="password"><br>
+	<!--<input type="checkbox" id="rememberMe" disabled>Remember me<br>-->
+	
+	<button id="login" onClick="login();">Login</button>
+	<!--<button id="register" onClick="register();" disabled>Register</button>-->
+	<button id="enterAsGuest" onClick="enter_as_guest();">Enter as guest</button>
+	
+	<div id="loginErr">Incorrect username or password</div>
+</div>
+
+
+
+<!-- Framework -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Account -->
+<script src="application/Account/cookie.js"></script>
+<script>
+if ( checkCookie("username") ) {
+	window.open("savid.html", "_self");
+}
+</script>
+<script src="application/Account/Account.js"></script>
+
+
+</body>
+
+
+
+</html>

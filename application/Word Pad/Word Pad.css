@@ -1,0 +1,122 @@
+#wordpad {
+	width: 1000px;
+	height: 600px;
+	display: none;	
+} 
+#wpTitle {
+	color: #330099;
+	font-style: italic;
+	font-size: 36px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#wpMainArea {
+	height: 550px;
+}
+#wpNoteControl {
+	cursor: default;
+	width: 300px;
+	height: 550px;
+}
+#wpToolbar {
+	width: inherit;
+	height: 25px;
+}
+#fileSwitch {
+	width: 300px;
+	height: 525px;
+	font-size: 18px;
+	color: #FFFFCC;
+	background-color: #555555;
+	margin: 0;
+	border: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#wpTextArea {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 700px;
+	height: 550px; /* to be fixed */
+}
+#content {
+	width: inherit;
+	height: 550px;
+	font-size: 24px;
+	resize: none;
+	margin: 0;
+	padding: 10px;
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+#wpToolbar button {
+	position: absolute; /* to be fixed */
+	font-size: 13px;
+	width: 75px; 
+	height: inherit;
+	background-color: #00CCFF;
+	border: none;
+} #wpToolbar button:hover {
+	background-color: #0099FF;
+}
+#addNote {
+	left: 0;
+} #deleteNote {
+	left: 75px;
+} #renameNote {
+	left: 150px;
+} #save {
+	color: #66FF00;
+	left: 225px;
+}
+.noteDiv {
+	height: 80px;
+	border-bottom: dotted #888888 1px;
+	background-color: #555555;
+	padding: 3px;
+	overflow: hidden;
+}
+.noteDiv:hover {
+	background-color: #777777;
+}
+.noteDivSelected {
+	height: 80px;
+	border-bottom: dotted #888888 1px;
+	background-color: #660099;
+	padding: 3px;
+	overflow: hidden;
+} 
+.noteDivSelected:hover {
+	background-color: #9900CC;
+}
+.noteSaveState {
+	position: relative;
+	top: 8px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #99CC66;
+}
+
+.noteTitle {
+	position: relative;
+	top: -10px;
+	left: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	text-overflow: ellipsis;
+}
+.noteContent {
+	position: relative;
+	top: -10px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #CCCC99;
+	overflow: hidden;
+	height: 40px;
+}

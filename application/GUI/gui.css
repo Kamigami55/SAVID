@@ -1,0 +1,64 @@
+#tools {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	height: 40px;
+	background-color: #EEEEEE;
+	border-bottom-left-radius: 10px;
+	webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+#openWordpad {
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	width: 35px;
+	height: 35px;
+	border-radius: 10px;
+	background: #DDDDDD url(/application/GUI/image/pen.png) 3px 3px no-repeat;
+} #openWordpad:hover {
+	background-color: #BBBBBB;
+}
+#openCheckmate {
+	position: absolute;
+	right: 50px;
+	top: 2px;
+	width: 35px;
+	height: 35px;
+	border-radius: 10px;
+	background: #DDDDDD url(/application/GUI/image/chess.png) 3px 3px no-repeat;
+} #openCheckmate:hover {
+	background-color: #BBBBBB;
+}
+
+#information {
+	position: absolute;
+	background-color: #F0F0F0;
+	width: 200px;
+	height: 40px;
+	border-bottom-right-radius: 15px;
+	padding: 5px;
+	webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+#savid {
+	font-weight: bold;
+}
+#userID {
+	position: relative;
+	font-size: 16px;
+	font-style: oblique;
+	color: #0095D5;
+	left: 10px	
+}
+/* logout */
+#logout {
+	position: absolute;
+	right: 10px;
+	color: #666666;
+	cursor: pointer;
+} #logout:hover {
+	color: #000000;
+	background-color: #CCC;
+}
