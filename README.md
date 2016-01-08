@@ -11,3 +11,4 @@ This is a website-based virtual world for me and my friend David to Live, Play, 
 - [ ] Multi-player
 - [ ] Fix chess game
 - [ ] Add more useful things inside
+- [ ] Add Magic Crystal
